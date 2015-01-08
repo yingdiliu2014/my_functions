@@ -6,8 +6,10 @@ function myFolderRoutine(go2folder)
 
 % wrote this piece of code as a function so that only one line of code is
 % needed for my other scripts (no need to copy and poaste all the time). 
+
 % yingdi LIU, 2014.12.20, Fribourg 
 
+%%
 
 pc_folder = cd;
 mac_folder = pcFolder2macFolder(pc_folder); 

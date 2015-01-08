@@ -3,8 +3,11 @@ function outputFolder = folderCat(folder, subfolder)
 % folder should end in slash while subfolder should not start with slash.
 % assuming that everything is in my normal work space (google drive)
 
+% by Yingdi LIU, 2015/01/08, Fribourg
+
 
 %% deal the subfolder first
+
 if strfind(subfolder,'/') == 1 % mac
     if ispc == 1 % mac subfolder on pc 
         indx = strfind(subfolder,'/');

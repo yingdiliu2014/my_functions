@@ -7,7 +7,10 @@ function newList = randList(list, n, minstep)
 % Originally written for the experiment SSOVP, where face sizes need to
 % vary substantially (perceptually distinguishable) from one cycle to the
 % next.
+
 % By Yingdi LIU, Fribourg, 03/11/2014. 
+
+%%
 
 newList = zeros(1,n); 
 tmp = randperm(length(list));

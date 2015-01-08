@@ -3,6 +3,8 @@ function outputFolder = pcFolder2macFolder(inputFolder,optional)
 % transform a path name to the equivalent on another operational sys.
 % if optional is 1, then the other way around (mac folder 2 pc folder)
 
+% by Yingdi LIU, 2015/01/08, Fribourg
+
 %% Assumptions
 
 % 1. assuming that the folder of interest is or is a subfolder of the google
