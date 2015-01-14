@@ -26,7 +26,7 @@ if nargin == 1
     if ispc == 1
         go2folder = go2folder;
     else
-        go2folder = pcFolder2macFolder(pcFolder2macFolder);
+        go2folder = pcFolder2macFolder(go2folder);
     end
     cd(go2folder)
 end
